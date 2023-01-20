@@ -42,7 +42,7 @@ export default function Home() {
                      layout='fill'
                      className='object-cover'/>
               {/* Search Form */}
-              <div className="relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 text-white z-10">
+              <div className="relative flex justify-between items-center max-w-[500px] w-64 md:w-full m-auto pt-4 text-white z-10">
                   <form onSubmit={fetchWeather} className="flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 rounded-3xl text-white">
                       <div>
                           <input onChange={e => setCity(e.target.value)} type="text" placeholder="Search city" className='bg-transparent border-none text-white focus:outline-none text-2xl'/>
