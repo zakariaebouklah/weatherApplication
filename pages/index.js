@@ -38,9 +38,10 @@ export default function Home() {
               {/* Overlay */}
               <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[1]' />
               {/* BackGround Image */}
-              <Image src='http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQOFSIS0QKpikqYCn77rN2QxT1NnJ56204nUgldcvTh6TurwSAJZcVFc-Ht-OaSDzFw47mA3NKPwKI7Ro_5YD4'
+              <Image src='https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
                      layout='fill'
-                     className='object-cover'/>
+                     className='object-cover'
+                     alt='cover'/>
               {/* Search Form */}
               <div className="relative flex justify-between items-center max-w-[500px] w-64 md:w-full m-auto pt-4 text-white z-10">
                   <form onSubmit={fetchWeather} className="flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 rounded-3xl text-white">
